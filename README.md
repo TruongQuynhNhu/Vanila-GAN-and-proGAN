@@ -76,6 +76,8 @@ The model's loss is shown in the below image:
 
 - In the PixelNorm Layer, as mentioned in the paper: b = a/l2. However, when I implemented this, it seemed to create bad NaN images. When I changed it to b = a * l2, it worked. Next time I work on this project, I will further investigate this behavior of my implementation.
 
+- Important Concepts in proGAN are: Progressive Growing, Minibatch Standard Deviation, Fading in new layer, Normalization (Equalized Learning Rate, Pixel Normalization), The Loss Function (Wasserstein loss function with Gradient Penalty)
+
 - Theoretically, proGAN still helps speed up the training and enhance the training speed and convergence. Progressive growth ensures that the initial low-resolution layers have likely reached convergence early in the process. Subsequently, the networks focus on enhancing representations through incremental improvements at smaller scales as additional layers are incorporated.
   
 ## 4. Citation
