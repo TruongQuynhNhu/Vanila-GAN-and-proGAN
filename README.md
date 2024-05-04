@@ -61,10 +61,12 @@ ProGAN is trained progressively with gradually increasing resolution of the gene
 [source]: Lanham, M. (2021). Advanced Generators. In: Generating a New Reality. Apress, Berkeley, CA. https://doi.org/10.1007/978-1-4842-7092-9_8_
 
 The images generated during the training:
+
 ![image](https://github.com/TruongQuynhNhu/Vanila-GAN-and-proGAN/assets/107611691/1b690c31-101d-472a-9bbc-b5b4b945a703)
 
 
 The model's loss is shown in the below image:
+
 ![image](https://github.com/TruongQuynhNhu/Vanila-GAN-and-proGAN/assets/107611691/f26e423a-d119-46f7-ba75-3dd2e98a82af)
 
 **Comments:**
